@@ -31,7 +31,7 @@
         android:orientation="horizontal">
         
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="@string/name"/>
         
@@ -54,7 +54,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="match_parent"
             android:text="@string/gender"/>
 
@@ -81,7 +81,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="@string/id"/>
 
@@ -98,7 +98,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="@string/school"/>
 
@@ -115,7 +115,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="@string/email"/>
 
@@ -132,7 +132,7 @@
         android:orientation="horizontal">
 
         <TextView
-            android:layout_width="150dp"
+            android:layout_width="110dp"
             android:layout_height="wrap_content"
             android:text="@string/phone"/>
 
@@ -143,5 +143,12 @@
             android:inputType="phone"/>
     </LinearLayout>
 
-    
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="110dp"
+        android:text="@string/but" />
+
 </LinearLayout>
